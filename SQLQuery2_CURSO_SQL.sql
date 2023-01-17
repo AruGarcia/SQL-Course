@@ -24,13 +24,6 @@ SELECT *
 FROM HumanResources.Employee
 WHERE MaritalStatus = 'm' and SalariedFlag = '1' 
 
-SELECT FirstName, LastName 
-FROM Person.Person
-FROM Person.EmailAddress
-WHERE FirstName = 'Peter' and LastName = 'krebs'
-SELECT EmailAddress
-
-
 SELECT * 
 FROM Person.Person
 WHERE FirstName = 'Peter' and LastName = 'krebs' 
@@ -38,3 +31,5 @@ WHERE FirstName = 'Peter' and LastName = 'krebs'
 SELECT *
 FROM Person.EmailAddress
 WHERE BusinessEntityID = '26'
+
+
