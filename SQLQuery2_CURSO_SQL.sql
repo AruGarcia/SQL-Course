@@ -32,4 +32,26 @@ SELECT *
 FROM Person.EmailAddress
 WHERE BusinessEntityID = '26'
 
+SELECT COUNT (DISTINCT title)
+FROM Person.Person
 
+SELECT COUNT (*)
+FROM Production.product
+
+SELECT COUNT (Size)
+FROM Production.product
+
+SELECT TOP 20 *
+FROM Production.Product
+
+SELECT *
+FROM Person.person
+ORDER BY FirstName desc
+
+SELECT TOP 10 ProductID, ListPrice
+FROM Production.Product
+ORDER BY ListPrice desc
+
+SELECT TOP 4  name, productnumber
+FROM Production.Product
+ORDER BY ProductID asc 
